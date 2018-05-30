@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
+import MapContainer from './Map.js'
 
 class App extends Component {
 
@@ -8,6 +8,8 @@ class App extends Component {
 
     return (
       <div className="App">
+      <h1>AEHOOOOOOOOOOOOOOOO</h1>
+      <MapContainer google={this.props.google} />
       </div>
     );
   }
