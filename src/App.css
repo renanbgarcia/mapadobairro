@@ -1,20 +1,55 @@
+body {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
+  max-height: 100vh;
 }
 
-.App-logo {
+/* .map-container {
+  height: 50vh;
+  width: 100%
+} */
+
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
+
+/* h1 {
+  height: 5vh;
+} */
 
 .App-header {
+  display: flex;
+  justify-content: center;
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  width: 100%;
+  z-index: 15;
+  height: 9vh;
+  /* padding: 5%; */
   color: white;
 }
 
-.App-title {
+.menu-button {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  background: url("../src/pizza.svg");
+  background-size: contain;
+  border: none;
+  outline: none;
+  cursor: pointer
+}
+
+h1 {
+  display: flex;
+  align-self: center;
+  margin: 0%;
   font-size: 1.5em;
 }
 

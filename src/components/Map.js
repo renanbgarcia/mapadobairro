@@ -1,6 +1,7 @@
 import React from 'react'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
 import { stringify } from 'querystring';
+import SideBar from './SideBar.js';
 
 export class MapContainer extends React.Component {
 
@@ -36,7 +37,7 @@ export class MapContainer extends React.Component {
   render() {
     return (
     <div>
-        <Map google={this.google} zoom={15} initialCenter={ {lat: 43.73333, lng: 7.41667} }>
+        <Map style={{height: '91vh'}} google={this.google} zoom={15} initialCenter={ {lat: 43.73333, lng: 7.41667} }>
       
           {this.state.places.results.map((place) => 
             <Marker onClick={this.onMarkerClick.bind(this)}
@@ -59,7 +60,13 @@ export class MapContainer extends React.Component {
   }
 }
  
-export default GoogleApiWrapper({
-  libraries: ['places'],
-  apiKey: ('AIzaSyCr6K24EFTY0zlqp_81opo8dUeM38nnq74')
-})(MapContainer)
+// export default GoogleApiWrapper({
+//   libraries: ['places'],
+//   apiKey: ('AIzaSyCr6K24EFTY0zlqp_81opo8dUeM38nnq74')
+// })(MapContainer)
+
+export default GoogleApiWrapper(
+  (props) => ({
+    apiKey: ('AIzaSyCr6K24EFTY0zlqp_81opo8dUeM38nnq74'),
+    language: props.language,
+  }))(MapContainer)
