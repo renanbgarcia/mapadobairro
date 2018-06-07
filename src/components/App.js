@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
 import SideBar from './SideBar.js';
-import MapContainer from './Map.js'
+// import MapContainer from './Map.js';
+import SimpleMap from './mapa'
 
 class App extends Component {
 
@@ -33,7 +34,8 @@ class App extends Component {
           <h1>Pizza em Mônaco</h1>
         </div>
         <SideBar position={ this.state.sideBarPosition }/>
-        <MapContainer google={this.props.google}/>
+        <SimpleMap/>
+        {/* <MapContainer google={this.props.google}/> */}
       </div>
     );
   }
