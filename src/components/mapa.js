@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { fitBounds } from 'google-map-react/utils';
+import SideBar from './SideBar.js';
 
 class SimpleMap extends Component {
 
-
-
   constructor(props) {
     super(props)
+    let markers
+    this.toggleBounce = this.toggleBounce.bind(this)
     this.ref = React.createRef()
   }
 
@@ -15,7 +16,8 @@ class SimpleMap extends Component {
       places: {},
       infoWindow: {},
       markers: {},
-      mapHeight: {}
+      mapHeight: {},
+      maps: {}
   }
 
   static defaultProps = {
@@ -23,8 +25,20 @@ class SimpleMap extends Component {
       lat: 43.73333,
       lng: 7.41667
     },
-    zoom: 14
+    zoom: 14,
+    barposition: 0,
   };
+
+  createMapOptions(maps) {
+      return {
+        styles: [{
+          featureType: 'poi',
+          stylers: [{
+            visibility: "off"
+          }]
+        }]
+      }
+    }
 
   componentWillMount() {
     const places = require('../places/places.json')
@@ -37,23 +51,36 @@ class SimpleMap extends Component {
     this.setState({mapHeight: mapHeight})
   }
 
-  renderMarkers(map, maps) {
-    const markers = this.state.places.results.map((place) => ({
-        marker: new maps.Marker({
-            position: place.geometry.location, map,
-            title: place.name,
-            icon: 'https://png.icons8.com/nolan/50/000000/pizza.png'
-        }),
-        infowindow: new maps.InfoWindow({content: place.name})
-    }))
-    for (const item of markers) {
-        item.marker.addListener('click', function() {item.infowindow.open(map, item.marker)})
-    }
-    this.setState({markers: markers})
-    this.fitBounds(map, maps)
+  toggleBounce(maps, marker) {
+      marker.setAnimation(maps.Animation.BOUNCE);
+      window.setTimeout(marker.setAnimation(null), 2000)
   }
 
-  fitBounds(map, maps) {
+  renderMarkers(map, maps) {
+    console.log(this.state.places.results)
+    this.markers = this.state.places.results.map((place) => ({
+        marker: new maps.Marker({
+            position: place.geometry.location, 
+            map: map,
+            title: place.name,
+            animation: maps.Animation.DROP,
+            icon: 'https://png.icons8.com/nolan/50/000000/pizza.png',
+            zIndex: 50 //Para corrigir um problema que os markers na metade superior da tela não ficavam clicáveis
+        }),
+        infowindow: new maps.InfoWindow({content: `<h1>${place.name}</h1>`})
+    }))
+    for (const item of this.markers) {
+        const self = this
+        item.marker.addListener('click', function() {item.infowindow.open(map, item.marker)})
+        item.marker.addListener('click', function() {self.toggleBounce(maps, item.marker)})
+    }
+    console.log(this.markers)
+    this.setState({markers: this.markers})
+    this.setState({maps: maps})
+    this.fitMyBounds(map, maps)
+  }
+
+  fitMyBounds(map, maps) {
     let n = -90
     let w = 180
     let s = 90
@@ -61,39 +88,33 @@ class SimpleMap extends Component {
     for (const item of this.state.markers) {
       let lat = item.marker.getPosition().lat()
       let lng = item.marker.getPosition().lng()
-      console.log(`${lat} ${lng}`)
       n = lat > n ? lat : n;
       w = lng < w ? lng : w;
       s = lat < s ? lat : s;
       e = lng > e ? lng : e;
     }
 
-    let ne = {
-      lat: n,
-      lng: e
-    }
+    let ne = {lat: n, lng: e}
+    let sw ={lat: s, lng: w}
 
-    let sw ={
-      lat: s,
-      lng: w
-    }
-
-    //https://github.com/google-map-react/google-map-react/issues/3
+    //https://github.com/google-map-react/google-map-react/issues/3 como centralizar e atualizar o zoom baseado nos markers
     const size = {
     width: window.innerWidth,
     height: this.state.mapHeight
-  }
+    }
 
     const {center, zoom} = fitBounds({ne, sw}, size);
-    console.log(zoom)
     map.setCenter(center)
     map.setZoom(zoom)
   }
 
+
+
   render() {
     return (
       <div ref={this.ref} style={{ height: '91vh', width: '100%' }}>
-        <GoogleMapReact onGoogleApiLoaded={({map, maps}) => this.renderMarkers(map, maps)}
+        <SideBar position={ this.props.barposition } places={this.state.markers} bounceFunc={this.toggleBounce} maps={this.state.maps}/>
+        <GoogleMapReact options={this.createMapOptions} onGoogleApiLoaded={({map, maps}) => this.renderMarkers(map, maps)}
           bootstrapURLKeys={{ key: 'AIzaSyCr6K24EFTY0zlqp_81opo8dUeM38nnq74' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}

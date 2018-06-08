@@ -26,16 +26,14 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <div className="App">
         <div className="App-header">
           <button className="menu-button" onClick={() => this.toggleSideBar()}/>
           <h1>Pizza em Mônaco</h1>
         </div>
-        <SideBar position={ this.state.sideBarPosition }/>
-        <SimpleMap/>
-        {/* <MapContainer google={this.props.google}/> */}
+        {/* <SideBar position={ this.state.sideBarPosition }/> */}
+        <SimpleMap barposition={ this.state.sideBarPosition }/>
       </div>
     );
   }
