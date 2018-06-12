@@ -1,8 +1,53 @@
 #sidebar {
     position: fixed;
+    padding-top: 10px;
     z-index: 20;
     height: 100%;
-    width: 200px;
+    width: 220px;
     background-color: rgba(204, 204, 204, 0.582);
     transition: all 500ms ease-in-out;
 }
+
+#btn {
+    background-color: rgb(144, 124, 255);
+    background-image: url('../filter.svg');
+    background-repeat: no-repeat; 
+    background-size: 65%;
+    background-position: center;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none
+}
+
+#filterbox {
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 35px
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    color: aliceblue;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.list li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    margin: auto;
+    background-color: rgba(66, 66, 66, 0.479);
+    text-align: center;
+    overflow: hidden;
+}
+
+.list :hover {
+    background-color: black
+}
+

@@ -7,8 +7,10 @@ class SimpleMap extends Component {
 
   constructor(props) {
     super(props)
-    let markers
+    // let markers
     this.toggleBounce = this.toggleBounce.bind(this)
+    this.setFilter = this.setFilter.bind(this)
+    this.matchFilter = this.matchFilter.bind(this)
     this.ref = React.createRef()
   }
 
@@ -17,7 +19,10 @@ class SimpleMap extends Component {
       infoWindow: {},
       markers: {},
       mapHeight: {},
-      maps: {}
+      maps: {},
+      map: {},
+      filter: '',
+      key: 0
   }
 
   static defaultProps = {
@@ -51,14 +56,26 @@ class SimpleMap extends Component {
     this.setState({mapHeight: mapHeight})
   }
 
-  toggleBounce(maps, marker) {
-      marker.setAnimation(maps.Animation.BOUNCE);
-      window.setTimeout(marker.setAnimation(null), 2000)
+  toggleBounce(map, maps, item) {
+      item.marker.setAnimation(maps.Animation.BOUNCE);
+      window.setTimeout(item.marker.setAnimation(null), 2000)
+      item.infowindow.open(map, item.marker)
+  }
+
+  setFilter(filterString) {
+    this.setState({filter: filterString, key: Date.now()}) //atualiza um prop do mapa para forçar a renderizar de novo
+  }
+
+  matchFilter(place) {
+    let re = new RegExp(this.state.filter, 'i')
+    if (place.name.match(re) !== null) {
+      return true
+    }
   }
 
   renderMarkers(map, maps) {
-    console.log(this.state.places.results)
-    this.markers = this.state.places.results.map((place) => ({
+    let filtered = this.state.places.results.filter(this.matchFilter)
+     let markers = filtered.map((place) => ({       
         marker: new maps.Marker({
             position: place.geometry.location, 
             map: map,
@@ -69,15 +86,12 @@ class SimpleMap extends Component {
         }),
         infowindow: new maps.InfoWindow({content: `<h1>${place.name}</h1>`})
     }))
-    for (const item of this.markers) {
+    for (const item of markers) {
         const self = this
-        item.marker.addListener('click', function() {item.infowindow.open(map, item.marker)})
-        item.marker.addListener('click', function() {self.toggleBounce(maps, item.marker)})
+        item.marker.addListener('click', function() {self.toggleBounce(map, maps, item)})
     }
-    console.log(this.markers)
-    this.setState({markers: this.markers})
-    this.setState({maps: maps})
-    this.fitMyBounds(map, maps)
+    this.setState({markers: markers, maps: maps, map: map})
+    if (markers.length > 1) {this.fitMyBounds(map, maps)}
   }
 
   fitMyBounds(map, maps) {
@@ -85,7 +99,7 @@ class SimpleMap extends Component {
     let w = 180
     let s = 90
     let e = -180
-    for (const item of this.state.markers) {
+    for (let item of this.state.markers) {
       let lat = item.marker.getPosition().lat()
       let lng = item.marker.getPosition().lng()
       n = lat > n ? lat : n;
@@ -98,23 +112,22 @@ class SimpleMap extends Component {
     let sw ={lat: s, lng: w}
 
     //https://github.com/google-map-react/google-map-react/issues/3 como centralizar e atualizar o zoom baseado nos markers
-    const size = {
+    let size = {
     width: window.innerWidth,
-    height: this.state.mapHeight
+    height: this.state.mapHeight - 80 // subtraindo 80px para garantir que o ícone do marcador apareça sempre inteiro
     }
 
-    const {center, zoom} = fitBounds({ne, sw}, size);
+    let {center, zoom} = fitBounds({ne, sw}, size);
+
     map.setCenter(center)
     map.setZoom(zoom)
   }
 
-
-
   render() {
     return (
       <div ref={this.ref} style={{ height: '91vh', width: '100%' }}>
-        <SideBar position={ this.props.barposition } places={this.state.markers} bounceFunc={this.toggleBounce} maps={this.state.maps}/>
-        <GoogleMapReact options={this.createMapOptions} onGoogleApiLoaded={({map, maps}) => this.renderMarkers(map, maps)}
+        <SideBar position={ this.props.barposition } places={this.state.markers} bounceFunc={this.toggleBounce} setFilter={this.setFilter} maps={this.state.maps} map={this.state.map}/>
+        <GoogleMapReact key={ this.state.key } options={this.createMapOptions} onGoogleApiLoaded={({map, maps}) => this.renderMarkers(map, maps)}
           bootstrapURLKeys={{ key: 'AIzaSyCr6K24EFTY0zlqp_81opo8dUeM38nnq74' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
