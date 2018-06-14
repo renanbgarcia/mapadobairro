@@ -4,11 +4,12 @@ import '../styles/sidebar.css'
 const PlacesList = (props) => {
 
 	let list = []
+	console.log(props)
 	if (props.places[0]){
 		for (let place in props.places) {
 			list.push(props.places[place])
 		}
-		const listItems = list.map((place) => <li key={place.marker.id} onClick={() => props.bounce(props.map, props.maps, place)}>{place.marker.title}</li>)
+		const listItems = list.map((place) => <li key={ place.place.id } onClick={() => props.bounce(props.map, props.maps, place)}>{place.marker.title}</li>)
 		return (
 			<ul className = 'list'>
 				{listItems}

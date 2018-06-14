@@ -146,7 +146,7 @@ class SimpleMap extends Component {
     se retornar apenas um, centraliza nesse único marcador */
     if (markers.length > 1) {
       this.fitMyBounds(map, maps)
-    } else if (markers.length == 1) {
+    } else if (markers.length === 1) {
       map.setCenter(markers[0].marker.position)
     }
   }
