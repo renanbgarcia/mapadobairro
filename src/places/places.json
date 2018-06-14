@@ -1,640 +1,794 @@
+
 {
-    "results": [{
+    "html_attributions": [],
+    "next_page_token": "CrQCLAEAAGpB7KDTQDw2qpNxDbPGTExpLopdn6lg3W1dNCxyqMIuqrdxXo5UJYqcdrgFBFH_lGybuKPODstQatomLk2dxnhuzdhbhJyRgz1N8LGoPoIqNpimnr8EuFQLVkgNHVo6Nmc8NFyMazGTpEwKNG-is3reLSItYokOf2OEt3MyEWGXhCeI8CCyeuYw3TSwo8ZbPgqyFgDSBE4hSDyX_g5IrCzYHnbOd_0pVc5u3cEKyKcOE9h-33cBPpyyN0OgvFLuao2oxYfwKQur_RnmkO4weT5aW3R6HtVvj_KGFb_Aer6TEXNswDiasnc32Sm-IZwYfKRhEYI4t-46UrCmv6xnLSoYJQDnIVdpv7moihCQasel0CkExKwK0y4k3HgwoZlkO_9AiBpU0yciF2Q5X5XcwYISEM5nGclGtKEo--7ZolY2kdoaFPwz0ElVFrDy0yR8HdTJSaxTsKRj",
+    "results": [
+        {
             "geometry": {
                 "location": {
-                    "lat": 43.733987,
-                    "lng": 7.41797
+                    "lat": 41.889409,
+                    "lng": 12.54231
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 43.73533187989273,
-                        "lng": 7.419273279892721
+                        "lat": 41.89075327989272,
+                        "lng": 12.54363052989272
                     },
                     "southwest": {
-                        "lat": 43.73263222010728,
-                        "lng": 7.416573620107277
+                        "lat": 41.88805362010728,
+                        "lng": 12.54093087010727
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "62ebcd0f62c1af2ea41c828a5030be64a364ba4a",
-            "name": "Apero Pizza Etc",
+            "id": "84b1123c6e29eede5a68e496b3a5048dbcdca666",
+            "name": "Pizzeria | Ristorante Al Vialetto Prenestina | Casilina",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 4912,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117415869214673075638/photos\">Al Vialetto Srl</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAPfw2_xNIZxYiFaEU5g3xcifUirnix6h2VcxDgXnvvQe_cextIky8XU0SItVn27O1zorMbb2Enc_2rHSE4rSW0HLi1kQbWzRwhhgKrJ3alpePBvx9qt1xIA8FxJN8vhGjEhDi-AX1kLCjYnNby3vYprjVGhTI_TWAG--4fKNsez-ZCM3uoZ7cqA",
+                    "width": 7360
+                }
+            ],
+            "place_id": "ChIJyzAC2TpiLxMRL0tmdqNjZHI",
+            "rating": 4.2,
+            "reference": "CmRbAAAAoO6ey70oxZOlm2N-ltEFUwbN1Od_bpuN2bgrafFL1FmjwnwzA6E3Xkcske3rDv1-qA7db0B9zZiKmp8YcGO17VRYYSrx5RKpSknOERCS41XwEfk1wPNSVZwNGrhXM3qYEhDg0N7dgFdo09xDUiYSX9DPGhScpUQqFjJxfCtsWdUrXMvDw1CuiA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via di Acqua Bullicante, 260, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.9055508,
+                    "lng": 12.5034031
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.90691692989272,
+                        "lng": 12.50477662989272
+                    },
+                    "southwest": {
+                        "lat": 41.90421727010727,
+                        "lng": 12.50207697010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "e0f4fabac23ecdd52e414a0577fb5e7ec292f191",
+            "name": "Ristorante pizzeria Al 39 da Massimo",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102394194078560608110/photos\">Ristorante Pizzeria Al 39</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAj6NEKnNpDZ-lHRjxOlkJsUoECaP9meebA4Un3MH29nsDNITiSWGdpknFDgdVYzCUfWn9tP2f1bBYX0QMU73JneD4QbYXCcpln4LxvKIyn3n_0AzNrqKGcB3PSGR1Kp53EhDTAIudKw6YPD1jEYzWRwqkGhSQqchREMnnNSj21lEB4qe9BU3Ytw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJJYXVgqBhLxMRTl_FwINQ-5U",
+            "rating": 4.3,
+            "reference": "CmRbAAAAfUGaklEuSU5oInyEInPJClFRRwtUUMmGZA5zAfqlWyfs1KnJtCEb-lcXzoUEbSOREn_mi8qm7wzei9Ti6XtuNk1IuHlHFSScg1Ct3EN67vUcLfl7qK7cj2sMiTIR5e48EhBD0kTu1_eROVVnXvmRn_hvGhQ8HubnJ-gBLmZyphsSJsBchXWskw",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Palestro, 39/a 41/a, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.861825,
+                    "lng": 12.471929
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.86310697989272,
+                        "lng": 12.47331257989272
+                    },
+                    "southwest": {
+                        "lat": 41.86040732010727,
+                        "lng": 12.47061292010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "c0f2737a28b146fb4db2bc8824fb278ee87cedc5",
+            "name": "ArVolo Ristorante Pizzeria",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102178099721166541438/photos\">ArVolo Ristorante Pizzeria</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAC6Zpa7S9HvQG0sv7qfS4zvvrzsg1429kUt0DzwlmuJh4aHt7WmzmnSZx4234N9694W6x0_F-AtB81iF98aTZ4lQlmy8wwnrJDbyilJZ7Veog83l5X7TgJu3da5HNAdjCEhDlTgRMuTCmfI-eu3-bJkaWGhTXHlp5QDYV1RxyDYe5NS7JGtwS4A",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJyezEyJqKJRMRLNONIU7sQHM",
+            "rating": 4.2,
+            "reference": "CmRbAAAAxsajil2OV8kj4X1vv4cTVyG3SGEpeW55z2om9dsLbHLPy28BnpSk-KqwTGh0QkHUgRAXgEEN1fkmg_rEJ8qlP6SoM_7XHMdmo2_eRkQhN1n02Ln0KpVcBWS0uCgSB8vtEhARB_LRfQpkHlgpvzYdo_oWGhTz9WxYdE0i_TJDKEiE2wXpMv69JA",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Lungotevere di Pietra Papa, 55, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.8835084,
+                    "lng": 12.4550106
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.88487382989272,
+                        "lng": 12.45644977989272
+                    },
+                    "southwest": {
+                        "lat": 41.88217417010728,
+                        "lng": 12.45375012010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3c7c58a95a41a1549e0b0899e545f4e6ac9f4643",
+            "name": "Eden Monteverde Ristorante Pizzeria",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100466346274469493622/photos\">Marisa Calia</a>"
+                    ],
+                    "photo_reference": "CmRaAAAACv6q4S7c3DRmgIG2kccgoTpSFzcW4q9K5P7F-uTrHnUy-gZwiv4ycs8wm6woeOZmPCeT5FXEUg6F9f2Mna7gyAYxMJHDrzOxK32-PX3LKoezOPMN1niu5k4is1E5jUw_EhBgFAVXACM1Fcm1KO0WjeEVGhQCOF_NFteIlH7BquB1a6wqh8mWYQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJa56N0hBgLxMRDNaNdYpFI14",
+            "rating": 4,
+            "reference": "CmRbAAAAKP_gK7k2Wc_ycUxV-iBIUcbGG-NizBpUPsma4lPs6l_zOncUGgelUca8uA3e1nNPFydEiO2I9ovbtBxcfJczQrvQViSU4W_onxyE543xC-msZXHe3WujvnjWoR_xNw8_EhCAEOeLXjC2FgwZZPTi0lG3GhRt4MqOcn0Gfv1rOEAWMpfCj08_4w",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Piazza Ottavilla, 14/A, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.953391,
+                    "lng": 12.544866
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.95471372989272,
+                        "lng": 12.54618827989272
+                    },
+                    "southwest": {
+                        "lat": 41.95201407010728,
+                        "lng": 12.54348862010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f3cb5e7bda6b53df2965c83c9eaf79a156f98897",
+            "name": "Ristorante Pizzeria - Carpe Diem PizzAe",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109775919620302296763/photos\">Ristorante Pizzeria - Carpe Diem Pizzae</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAvLCGLHuJ7DSotkf9eNTYO0twvV18gyTZ_5hddhc0-K1lJlwjwfYIE7mhFfMSrWp5jWhfULhUhnFfMhApjmy69YrexZLpvYSzM2Uo0To1ySvLL_vFs3qBXaOH7Sug6_tlEhDfe2bsF1Tkh9ywzhpo2pq3GhQPnsZTLVny_rHy2j9OrcT9FF6yuQ",
+                    "width": 5760
+                }
+            ],
+            "place_id": "ChIJ11gdGhFkLxMRzSWHZSnbL3I",
+            "rating": 4.2,
+            "reference": "CmRbAAAA8bgZE40CSvzNXUy5o8RkcDa4J8OL6Av4qqFsMNs2mLzJqm2mC922lQQHozWfC6AvUg1V_4gbUWSTIEVcyh2nXgEXqMhb5DQ9qzLyk5kDdC-LLm6j0yPI4tgmgpz-wwxBEhBf0HHyOcPQNMAQZiVdKKN1GhTo7YLVyatvN2Tbi_QoruREYMMzzA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Renato Fucini, 9, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.872502,
+                    "lng": 12.4782149
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.87379267989272,
+                        "lng": 12.47956452989272
+                    },
+                    "southwest": {
+                        "lat": 41.87109302010728,
+                        "lng": 12.47686487010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+            "id": "9d9486d987f1d2c511f71c8ff04b0f77fe9e5cdf",
+            "name": "Porto Fluviale Ristorante Pizzeria",
             "opening_hours": {
                 "open_now": true,
                 "weekday_text": []
             },
-            "photos": [{
-                "height": 2448,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113325752367877442511/photos\">Johan Plate</a>"
-                ],
-                "photo_reference": "CmRaAAAAy0VUHoNQb7oAKfgabPPWE0CvQSN9Blt3jAZ9Z3_W1YHF_AlBdXM6r9nRnWnLWmDCMkKQLaltdKw7g0cE-hLNvYr8xjlXmrjn7YE-zw7Z8Kg1ikS4kQ1E4p9laaiIqCP8EhCXUC_LoqXW8csdG1TLvqlKGhQS6V_DTmTI6evKfdcsCEuH5VY-yA",
-                "width": 3264
-            }],
-            "place_id": "ChIJLbq7H43CzRIRX6Sn2ayKUIw",
-            "rating": 3.8,
-            "reference": "CmRbAAAA-YwtRy61l0sFJPULQNvc6bfjZOenS1avtMRvYrcif7bKQUJtKkXPU0fmxxcZzbVkiZ7meQFRCPqhj0PtOmeWLx9-_np68kUPl-6iLoEzsTMTTJos4I74R5nMJUpKARDmEhBCOcjbGV8pq8km7MLiVr9iGhT2Pvd3CnFjRuGt0UL1XDusGdesSg",
+            "photos": [
+                {
+                    "height": 1363,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111357617391603359960/photos\">Porto Fluviale</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA6pDjGBhlcFbymZzQUPUFAMOWvHWsC4qICKW9BQeHLQ_J1q81TiSG-YEcPVeoKXbwiQaSOyUbXGx_geQmWpzuvvkIpy4NYVCYcLWX6AnoKqC0Mr2BKKprvNCtwhdPaOc6EhBkq_bixuwjYRidEsGGt6MXGhRTqj8JE-T--hpE7mOPiNiHElwOZA",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJdWbK9TZgLxMRwZW3XiCa-EU",
+            "rating": 4,
+            "reference": "CmRbAAAAo-dPNnzJ4JshXuT54-7k097XreZy20-azrxSHjySvHlChZmyAwM4ASyhqhzY772Qdhw1yAnGCWreJwDtiTBM71-BPFWMjNQx2oDGFSB_cAYLRFafGK_2ctirq9ucdQB5EhCUfz4FKhjcJKvn1dK-1s8EGhSS0WIFb2d_O-NUpowyA6wqq4mDzg",
             "scope": "GOOGLE",
             "types": [
+                "bar",
                 "restaurant",
                 "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "vicinity": "26 Allée Lazare Sauvaigo, Monaco"
+            "vicinity": "Via del Porto Fluviale, 22, Roma"
         },
         {
             "geometry": {
                 "location": {
-                    "lat": 43.732414,
-                    "lng": 7.420389
+                    "lat": 41.9099316,
+                    "lng": 12.4613524
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 43.73376207989272,
-                        "lng": 7.421730979892722
+                        "lat": 41.91135877989272,
+                        "lng": 12.46265452989272
                     },
                     "southwest": {
-                        "lat": 43.73106242010728,
-                        "lng": 7.419031320107278
+                        "lat": 41.90865912010727,
+                        "lng": 12.45995487010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "8816350e1e697a1d7d5e2130425e6badebc93e6e",
-            "name": "Pizzeria Monégasque",
+            "id": "0af2253ce50c62ead85c98d5c219afb52f0117fa",
+            "name": "Napul'è Ristorante Pizzeria Teatro",
             "opening_hours": {
                 "open_now": false,
                 "weekday_text": []
             },
-            "photos": [{
-                "height": 1187,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100876184135134534712/photos\">Pizzeria Monegasque</a>"
-                ],
-                "photo_reference": "CmRaAAAAAaa46deoKja-LCqCUaM3ttAQjKbGj3VzYXHEQxNbDgvncPbpF-Q9O698adcNF1OVO0lORaUZNOtsppNdq6jDY2m_Y2_mfrtdq8P3Wp5QH0djKRniuhIazY2MrGRvscI9EhCz1cTl4-c9uBMs5JWYwH0FGhRaO_e_LICJLf_vh7FFuYU47Ja8Iw",
-                "width": 1877
-            }],
-            "place_id": "ChIJ53qCk43CzRIR8a5GgoNy4E4",
-            "rating": 4.4,
-            "reference": "CmRbAAAA3BB05MIjNYQzkM30-R06AaZnW0WwP5j3GvLOkD8uXOaWfGCNMfkrDH04b8RIWoXyQ3ku_fxJxryswVp3B54wqePhhQRVKlbx1VfeJ3T9cMjahFgHOj_qnaaisCcLxICMEhC1n1FyAHOWvQ1MwR2spHINGhTJNRx1vAKxYFcuRdSuZNxlRElObw",
+            "photos": [
+                {
+                    "height": 1835,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108103807818489602057/photos\">Napul&#39;è Ristorante Pizzeria Teatro</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAplV5S8JA9o3TxHUuXa39MC15R6HunKiK0ixLRnxEvXYNRqP8SO45bcf5ngQlSKgGlotzvufxFP_5-OyXZ8_axxdmoJDHRQXTFLOJUC6nj0M18to37Gx6xF9bcHBpogZQEhCW6LLou20_384Mm7xrwh-CGhSDGJctWKoBHzVqePPD9v-bABjmRQ",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJV_QD_F9gLxMRjNNGAX9-jVo",
+            "rating": 4.1,
+            "reference": "CmRbAAAAPaoMwStGyO2xtlz9rPXBpMdOdgV5bXuSzou3S-F2rK2Zxcl6i8ah4ANPL8sgASqvK7mZlUGzj5BxLMjpDLNZHMRoApIDs-CFKsylzOgBRKSj350_fBo13ZpIsbb2xqKXEhBz5JeyQdQi0kPSyPSGkjxlGhT5hUnpzvTtqPIh1KkPZvzaFATM3Q",
             "scope": "GOOGLE",
             "types": [
                 "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "4 Rue Terrazzani Monte Carlo"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.732824,
-                    "lng": 7.419563199999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73417382989272,
-                        "lng": 7.420913029892721
-                    },
-                    "southwest": {
-                        "lat": 43.73147417010728,
-                        "lng": 7.418213370107277
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "6e860a2e5611aebe6b457ce7a71ebb250f52620d",
-            "name": "Pizza Pino",
-            "photos": [{
-                "height": 3120,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/103815620276823124043/photos\">claude coste</a>"
-                ],
-                "photo_reference": "CmRaAAAATSBLJ6mTme3pTMDLsgx0UEt7QKU3-Yb_NO3RVekT472Rwt0nAhewsOgpJlawB5YyWapzyOTQzLOinX5n5hfWNhfrrKYLqSUfmw7PQ3kIThOIQEnlyPg0NrzvNsVsYvZWEhBik631t4L1MgBXxCRxuyfnGhSTdZ_S2X0mz5wzInrP76RD4gnOaw",
-                "width": 4160
-            }],
-            "place_id": "ChIJZRzGmI3CzRIR1KXplMe6CGY",
-            "rating": 3.1,
-            "reference": "CmRbAAAAbRKOqgwuQ-aa-98ddY1BtXDin2mZmotgyF6PSxnBoZSLPYSZLd_d4jQCOYXr96xKap66R371rkDGlY1ihu1VxP2I2-CH_2HvVmp01-5nlytP8XYfC1XmVebGS5Wxu2m7EhDgxJeUlQ6iBbd-DtLFXHQkGhRkw2oN51Gesd00iKRJrmIpIHr8QA",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "7, Place d'Armes, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7328494,
-                    "lng": 7.417890799999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73416192989271,
-                        "lng": 7.419219979892722
-                    },
-                    "southwest": {
-                        "lat": 43.73146227010727,
-                        "lng": 7.416520320107278
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "d8afdbaad5bc710748a2d16fcc48f34454079626",
-            "name": "Restaurant P&P",
-            "opening_hours": {
-                "open_now": false,
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 3120,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/102153990493141920396/photos\">Sylvain Mazari</a>"
-                ],
-                "photo_reference": "CmRaAAAA0wO1iF6PhB0P_KnKy6amm4JQx2earfRqECHlIfcDozBNU6_ctVc7M54p7cdtO8y68vfyJmx-8lpQAs-oBJvUjOSt-NgEXdsuyiKw_y_XiSx5nCRVtD-H1lvWBrlVOeZqEhAnaYOABnOSTsHVxHKGb8_pGhQFYQ4YMa2ay9SrFdfcx4FaxaWAxg",
-                "width": 4160
-            }],
-            "place_id": "ChIJ0X52a43CzRIRPkSZi5YMDas",
-            "rating": 4.3,
-            "reference": "CmRbAAAAFSign1FLMtV6MY6bXbH87NJAaRTwxS23cDviH04QMO7ZbgLA3srQPJ3tsjuBhcuHU9iQyHTMmNq8cCeg2GmqBkpmu6Dd75qIGOaDkWOmjap4MoG9uo6UbLL953mOD2T8EhCcB-w2IwLGRZcbo1OeuEiNGhSS-i08vZSzznG1AS8T-TifcsM7vw",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "10 Avenue Prince Pierre, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7273173,
-                    "lng": 7.416676799999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.72866727989273,
-                        "lng": 7.418026379892723
-                    },
-                    "southwest": {
-                        "lat": 43.72596762010728,
-                        "lng": 7.415326720107279
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "80355ca4d79aaeda0168e1e2125ed1d93dc6c665",
-            "name": "La Pizza du Stade",
-            "opening_hours": {
-                "open_now": false,
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 2322,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116582999128341404506/photos\">Rafa Goalll</a>"
-                ],
-                "photo_reference": "CmRaAAAA4Cz0dRtKUQwxg89VIb1VG9de2xO2OQ8e-Jqz_GUKZltM9AktGN-HGhGAzrCrnXbHUTOdobN8R7O9O5PpaGZB_qhXX6x6JpXS3vQfEpBqajY-DhWaLnXnLctOsEdUTfeaEhAXWNUWxgYTKW6M-UeBue4rGhQuV0LbAM-ccKTid5OI3Zel_mexpw",
-                "width": 4128
-            }],
-            "place_id": "ChIJeVE6quzCzRIRsyf3mgwzbvY",
-            "rating": 3.8,
-            "reference": "CmRbAAAAchdPqw5Oxhgt-MnhZDCJajSD1VVnMQc1Tjj3qQZopzRlPuCvQ1jQNpk6qokceGcTBsGttoFBSun9o_miLcDlc4A55Y1HRGf9uSEdWQ9CIbCCnZ1iARpvcjB1Jn-U4ndBEhAfmfEtsceKwhpcJwqLI1F1GhQX_iDjUD0628Www2ldrqp3mSXuRg",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "11 Avenue des Castelans, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.731018,
-                    "lng": 7.424111
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73239102989272,
-                        "lng": 7.425443829892722
-                    },
-                    "southwest": {
-                        "lat": 43.72969137010728,
-                        "lng": 7.422744170107278
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "c4a711c1d19595986f5e5dd9bcce0dce5022c151",
-            "name": "VIP very italian pizza",
-            "photos": [{
-                "height": 2592,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114032161260705500152/photos\">Redkolis !</a>"
-                ],
-                "photo_reference": "CmRZAAAAseGV0AcV-nJBI-kDCyffJ2vtwzYK3rpfpPWHz9qWWdtnVOMJiIbFpeEatrBOM_DxLJtOOhn5HNsw1rl_JjZeeI98VWB72_RtD2tL9MUfs0psKBbA6nC6NB0qT6Wuzwb4EhCTuXpPQteQuQH8suwiuSjxGhST0GSLfBmgKpGGGaT42xsBdAfpQQ",
-                "width": 4608
-            }],
-            "place_id": "ChIJP34c3I_CzRIR3ZcHnD-AoFk",
-            "rating": 4.5,
-            "reference": "CmRbAAAAZW_AFqV8zsQa3mvaFlXRsCbU_SKdKm9cyp8h9_AqJpihR26wmPbcFPefT38zmAVHSeL7chB58J05z5-GS9_d0vLvgJBxgzejCGmSHdbfupim1L_Z3LHn45MThM35DriwEhCa7hRWprqF5kP0yzTggW6zGhQIHCwXFcMZuIhMBpdscUqI0m6g9Q",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "2 Rue Emile de Loth, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.731068,
-                    "lng": 7.423378400000001
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73239992989272,
-                        "lng": 7.424727379892722
-                    },
-                    "southwest": {
-                        "lat": 43.72970027010727,
-                        "lng": 7.422027720107278
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "9f92d7155d3e0690be2bcc28a1b045fc50d689b2",
-            "name": "Restaurant-Pizzeria da Sergio",
-            "photos": [{
-                "height": 2988,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/117757765178428757701/photos\">Chris du Plessis</a>"
-                ],
-                "photo_reference": "CmRaAAAA_JyK52ISeHvIO77cbV5dtKDx7hFoB3EabQgPmN-uRLS4ZEr4_qdPjBFeDvGaVuj4DZuPyTX7vVY6NzlrYRmegGP_P7tZhs1y5vt08Ni5hj0w-_x4CTtOr87LrLukGQB4EhDQ7Ly0waDEv9D65uUsIracGhT1EzOVLV5V2cTS14SaDnssp7bkqg",
-                "width": 5312
-            }],
-            "place_id": "ChIJuci43ZHCzRIRNObW6TMX0Rg",
-            "rating": 3.5,
-            "reference": "CmRbAAAA09aPL8V1pY4XgUY0cKpm2HIu4VfLbsvCaJ1dfNqwWZx-beD_f504--DP-GnPieNW4iR4diz18Q0dnyXYfaWCY9ePTmkAdZ2dh4qVU6vnpiC7CSb0BgEg74KxAPwgp_RqEhBobJZUmNxtHb6vAESoBz8uGhTjwz6ht_H46dPIcR-bIk4qQxVjVw",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "22 Rue Basse, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7309711,
-                    "lng": 7.4221587
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73230692989272,
-                        "lng": 7.423503329892724
-                    },
-                    "southwest": {
-                        "lat": 43.72960727010728,
-                        "lng": 7.42080367010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-            "id": "08b7f07b517e96deef1b4ccb031b31111f35371a",
-            "name": "Crêperie du Rocher",
-            "photos": [{
-                "height": 4608,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/106483452236129545988/photos\">Guy Laban</a>"
-                ],
-                "photo_reference": "CmRaAAAAFaourDT6ZvWqkX3ad4E0oEKX8Wgj2xybyJk4b2WtRVnmrz2NvClK4RzPy_aUPdn_qGeh40JoT46ulw8X7Uz63RiQNggx-mlk84BsQsdJHn0bKUX3JMRNFMx4ixT_uQ2rEhCs89KIOOcWB-8bdMHShn67GhQL11S6TYJlrEiyfmrdVT0LR8WOfA",
-                "width": 3456
-            }],
-            "place_id": "ChIJucw0-JHCzRIRg719aAsngeE",
-            "rating": 3.6,
-            "reference": "CmRbAAAAd7nGzHsop5jpjtOtGH7CIbAecsgYdqqKJK5V22R47-o8FfXpRPE-JmmlDbSWW0tV8mizAPzkascj8ezbIdP2f9yzx1DpTR8EJzUs1l6zz2ZE0grORqOX27tCyOMl-8o_EhA3hglWgMYcV9tWx2teTlYcGhQuR_HYqnN3ODjAGVX91lQDeme70Q",
-            "scope": "GOOGLE",
-            "types": [
+                "liquor_store",
                 "meal_takeaway",
+                "store",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Viale Giulio Cesare, 89/91, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.8809591,
+                    "lng": 12.5634054
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.88231812989272,
+                        "lng": 12.56484267989272
+                    },
+                    "southwest": {
+                        "lat": 41.87961847010728,
+                        "lng": 12.56214302010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "b497008ed3699aedf4bc494dd540c3b07693ed67",
+            "name": "Ristorante Pizzeria Dall'Amicone",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105871121153954428520/photos\">Paride Stranieri</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAQO9HR74b_PqlGnVhGNNSLsMh_B1Rv1ih5nVNMPU8bnfVAdfGES7myERyBGBYMzOcxPEIU0gxckEnDrqcnqB4F4J0GO_W0BEedSav0BKkaTRxBT0ebN_faGmNalk9dpkvEhBDlFYoUQU8WBy4rT9gCj5nGhS21pziLgsClKUztGhSGN_RTEe9Eg",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJfS7Lx0JiLxMRu92z9n7m0Cc",
+            "rating": 4.1,
+            "reference": "CmRbAAAAUAzqI2cfNKbWFLO7Xms56N-tz8_K37OEvbxpSY5r4Dc-zx27ZUAyyUC3ZJleIbzjIAdUnzr1vavbyViYR3iJYV3f6pZG4faVgs5q2IbVm5En35jxwemchjSKHbYM5yfcEhCqX4P-oQzpcoPalzeEUbIZGhR0oWx-qibKIcu2YyslMCdti9zBWA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Tor de' Schiavi, 117, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.94377470000001,
+                    "lng": 12.6493258
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.94512452989272,
+                        "lng": 12.65067562989272
+                    },
+                    "southwest": {
+                        "lat": 41.94242487010727,
+                        "lng": 12.64797597010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "3241310d90485fa7290a127d1f0238469bf18b07",
+            "name": "Ristorante \"Pizza Cowboy\"",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 708,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100493336561032438922/photos\">Ristorante &quot;Pizza Cowboy&quot;</a>"
+                    ],
+                    "photo_reference": "CmRaAAAASNtHwaN81ReH5XWOuayPWAScrcfF25h2pdDA8zc8aYhOtcwm0WepVxtWWqRJ6c-Aox2DJE4WbTy2NsCyqrTO9o1f6pQVVkKkY0JRdO6hydLONbGvWhtU3ir4GR08KZVOEhB11xgR_Kxsy5ll3C92o3UAGhTBZFBKbCkt6mzINn7dx6-9TwzL1w",
+                    "width": 1064
+                }
+            ],
+            "place_id": "ChIJ669MkWt7LxMREhWJuciqx1k",
+            "rating": 4.2,
+            "reference": "CmRbAAAAMIywgr9fTVJubRyuYbqXLARN_5ueOoFu1CoUdk8_DeCQ4IqvkcvUhgu41ELt35cOLaqcBasUmPoIDZ40yaPCIZHfaoMvWTxVZZfqnRMkuYcShEpz4zW1Jw9AMfPwlpxtEhDmuwRNxqbLpXciZRK0LeOjGhSXadaUnTwfQTFzbWP_TFqS0IrBDQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Trilussa, 15, Guidonia Montecelio"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.9084266,
+                    "lng": 12.4571394
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.90972707989272,
+                        "lng": 12.45851177989272
+                    },
+                    "southwest": {
+                        "lat": 41.90702742010728,
+                        "lng": 12.45581212010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "8629b7831ef8f383e63293b50cae3d19a73a3335",
+            "name": "L'Isola della Pizza",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103311897619185273716/photos\">L&#39;Isola della Pizza</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAKzd9IlhVO6yXdVJcRs-xzu9Nr5Ye8T_8u3zMjFFi-HcjlqyxlPA3y5ci7WpJQzJYlQrRsm5JmbxHky_hZrTLaiA75gqqHu-EefmtysQfd56-6oseRy5I9dSp6Qjhid5KEhCCqJRNBsgbfcuiRGVYuclrGhQVTL6on3IxxMVmlBsgdV5r0GtMBQ",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ6b9yp2FgLxMRH4JEycIjshw",
+            "rating": 4.2,
+            "reference": "CmRbAAAAIFOC32TKMTsxVwLZ9uKkKGGHfk0hw1TbcYoWSfAq5gZ7dxpMPYV6qVdgUFoWgII9F7sNOGMlDlAAPBWr0zXGd7bN3J1tbMqSGtpwbE7Uembzcm3Y3_re5VaN_BQo_90tEhBixodypMBXTEeC4x4kjjRMGhTFiEPFuxErDxZIUJFG5RggjwVebA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via degli Scipioni, 45, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.9190396,
+                    "lng": 12.5225217
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.92039147989273,
+                        "lng": 12.52390037989272
+                    },
+                    "southwest": {
+                        "lat": 41.91769182010729,
+                        "lng": 12.52120072010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "c8a754ec6e3b2c2956b2eafb45d872799009d682",
+            "name": "Pizzeria Novecento",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2560,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101410584365338405434/photos\">Nicola Pugliese</a>"
+                    ],
+                    "photo_reference": "CmRaAAAABYypY9c0ua7bRhFusYd8i5PiJIsD0qR3lhcFDI6RK3PyXR8-uMsYb5ynbIUi3__GbrQJp8VoEtWlx9_6FbI7l1wt06orTvBSfl_78guZqUWkdK_iIpBsnnvQ7pik3DtzEhARimwqocpKKaADNVGD6Z-oGhRhSRpQaK3Kbwt9w_8riuZq3DGpYg",
+                    "width": 1536
+                }
+            ],
+            "place_id": "ChIJwzY1lmZhLxMR_fnb2tp5wYI",
+            "rating": 4.1,
+            "reference": "CmRbAAAAcF3W-qAOa3Rz182ZYCR62ri6YBUDamYQW3T8nM13p5c2nmJBX4skP3t40LEuIC8DQJjqmY5S0B-Ei0Wv1LUTkNvviUVVSoJBQWTblGq-w0KbtZ6g3BNRtIv1LuwHXtcFEhAppVMsqxDLbh7gxN9R1luBGhTE1TSIyFI8byGKpCTcdG3u87oUpA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Ignazio Giorgi, 11, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.8844818,
+                    "lng": 12.5697072
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.88583487989272,
+                        "lng": 12.57094177989272
+                    },
+                    "southwest": {
+                        "lat": 41.88313522010727,
+                        "lng": 12.56824212010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "b9cf912d9cca16161eb13df415b6e3d703853b23",
+            "name": "Ristorante Pizzeria Cosmo",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 480,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107208289205881728426/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA6WqNvoSwTekEjCVBmPdVML-YFZU80jMxiIaisvf_YBudPJjgpWT4FFhjg1Mjejo5HQ_bRVxIvKys41yDTCauog4mtVYPyj-B78P0aCOSE9kyo4PsN_mZzerJYPEfM1IeEhD7PtDqxESSrJ4flZS_aWgaGhT0mu5mjSbYw7x83nhgGGmD3xoUgg",
+                    "width": 853
+                }
+            ],
+            "place_id": "ChIJJ-Ho5FtiLxMR7Ruz5F95NVs",
+            "rating": 4.3,
+            "reference": "CmRbAAAAXsUcal-Ohtt1tYT2jlxVEGQpbi5qbvRDPm1Bhk-8BapyGob5QSJprioddRfN_uCHy6geKYjpXRDjxMtAyzWbE6PlS8h3jas430h3yBsJghYG3fYPs2Z4Pp1zl8_hu1DFEhBb270ModjvVfxzkO1CCB_UGhRrwfRqBrf_Xf-ts2s-ChxKXGL-FA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via degli Elci, 12, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.89712,
+                    "lng": 12.4840407
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.89846982989273,
+                        "lng": 12.48539052989272
+                    },
+                    "southwest": {
+                        "lat": 41.89577017010728,
+                        "lng": 12.48269087010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "4c767fbc6c4e9c450cccd4de38728658df641012",
+            "name": "Ristorante Pizzeria Cesar",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3545,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118120727647422605111/photos\">GooNext Srl</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAYfJGrcFhBe-1GqkQl6XGRP6yCkw_CzLE3CobqC9wOi9Xb2A3pttVIdvFPaFJXYMKzJRtmFwH7Gjlqb_7AttiGOGeQwTlBtdKckEplp6tozhlyjsNWI7_fRRzfzPDDt8HEhDs0uMLlUl1Hn1tXMJXW4fZGhRLvedfimM_ifKn1hWfWVJ-19HIAA",
+                    "width": 5318
+                }
+            ],
+            "place_id": "ChIJC3eXSk1gLxMRy0IR4WF_DME",
+            "rating": 3.6,
+            "reference": "CmRbAAAA2zObgX_nKlav40HUowwsQcWP0T3Uqy9yeDqTI5541yt5mrFjLj09rbcpegKBDvKPc8ErDFmM959DC-WAFywkxjpLsrMGSrhpOZ4M1yfn6srKxrkbtNP5G25IdbHPg1Z3EhAhb5_KVsf13Ua4MXunZ5UUGhQwsP2UbCbW1G2-tqizMxnad1db-Q",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via IV Novembre, 137/I, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.9033874,
+                    "lng": 12.4824139
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.90465667989272,
+                        "lng": 12.48357072989272
+                    },
+                    "southwest": {
+                        "lat": 41.90195702010728,
+                        "lng": 12.48087107010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "f2cdf3da744a629ba6a722b62d425a2ce217e21b",
+            "name": "Pizza Ciro Group",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109382136599646052158/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAtKBGcJZLS7RV78ZwJRo8z9etcD-UT5G_PGq6IOVuUXqVMZwBiLj51jjes6_jvet6kPsr3laqtqRdUYc-7wmMwzarO-OnPX1kCJK6yG0lcaMPjoOYll6ZIB21Ckl0yXIkEhAuua-LPHili93KRXI6DBsyGhQh1HuqmUf3bsi2h0aDrHsrS49qSg",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJP8RsnlRgLxMRS1UbkbAhj08",
+            "rating": 3.6,
+            "reference": "CmRbAAAA0LC3SZBNeHt3BWgherV5jdhPHpMwfMA6cIG5ak0HAOJUl3elcqZPyiumUMikqPvkMUGXCb12x1DiaTEtsXx9u4iyv62oSlfhs9yJMlgpK9XKqqy01BUlxShbGQwQqKZwEhCp-1tj-ZEAdBKsPlhauFHNGhRwxDNDIff8inSkawBa0bTtf61CcQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via della Mercede, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.9274925,
+                    "lng": 12.5748361
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.92884232989272,
+                        "lng": 12.57618592989272
+                    },
+                    "southwest": {
+                        "lat": 41.92614267010728,
+                        "lng": 12.57348627010727
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "4f0bd9746478aae9a5516c02030334ca4fff13e8",
+            "name": "New Azzurra Ristorante Pizzeria",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115496475692721228814/photos\">New Azzurra Ristorante Pizzeria</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA8F_O5SgDt7cBGwbBGh2jJrKYeML92G1fDPJBwSkOtbeHW0ybq6yaKZIS1eTihtPbazI3WGUJRcsqWFxSDRtNk1Ublmr-ju3VeJDjRYksaz6kHQsbJUqgcEk08BjOJde8EhAmUbVi0-MeNqyF5hTdmGATGhQjiYxEc03ww7agwmFY3Lj_Plr6pQ",
+                    "width": 5184
+                }
+            ],
+            "place_id": "ChIJIZTgrYJjLxMRpyMsi_6sIY4",
+            "rating": 3.8,
+            "reference": "CmRbAAAARlKQ9guEv29V67QOHFlOMKgvtCfa0bB80ROm5pcFUecfV6ZJL2J8CsIZhYLRoJLlj9-eUS4hz4vHH8NOF9KeB_nxl_3lgyt1-xr0AfEb1mA3BP9jVuxfHtkPFYfNMjXgEhDApGmtObZ2En3jGXyjkWaSGhSlLU425c8DRBEddKGh2YZ0lOu-kw",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "meal_takeaway",
+                "electronics_store",
+                "home_goods_store",
                 "store",
                 "restaurant",
                 "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "vicinity": "12 Rue Comte Félix Gastaldi, Monaco"
+            "vicinity": "Via Stanislao Cannizzaro, 5/A, Roma"
         },
         {
             "geometry": {
                 "location": {
-                    "lat": 43.73824399999999,
-                    "lng": 7.417262
+                    "lat": 41.8976265,
+                    "lng": 12.5136907
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 43.73954982989271,
-                        "lng": 7.418534779892722
+                        "lat": 41.89897632989272,
+                        "lng": 12.51504052989272
                     },
                     "southwest": {
-                        "lat": 43.73685017010727,
-                        "lng": 7.415835120107278
+                        "lat": 41.89627667010727,
+                        "lng": 12.51234087010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "a15a4f714d331421a643b8f5b195a0d6cbfa8bca",
-            "name": "Number One Pizzeria",
+            "id": "9e56f722d578c3496e37549aa6bb81814eed173d",
+            "name": "I Fratelli, Ristorante Pizzeria",
             "opening_hours": {
-                "open_now": true,
+                "open_now": false,
                 "weekday_text": []
             },
-            "photos": [{
-                "height": 1224,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/113241661205284574863/photos\">Marcello Bruno</a>"
-                ],
-                "photo_reference": "CmRaAAAAJIparOMYBLRKr_n-WVZkEO4pyQ3iCkqSjaoU6NNeDxRsYE3Ia8B8SKvxPF_PehIeNIAi7BNn-2YU7LfRlC1iIzPMeYbk7PaPqXqH7XYt8XQsmo6uLW6T5Yndu5xVY_EoEhAiOIG3WgDLUsrGXeV2k5QYGhS7WpMDtjh48j6mLazOcLPrYKmWaw",
-                "width": 1632
-            }],
-            "place_id": "ChIJLZTwOovCzRIRlS7Y-H2nF6Q",
-            "rating": 2.5,
-            "reference": "CmRbAAAANgZV-UcZoNwS6nBGcHzR0Woc9q2TjVJmXvEXol6tqqS_CzrTUci5lxJocAq5io-SXAtNtYq-zoQlj14_YjyVCLNmFHWD5R3rBSJTpNzloP0bI2dYOifJJXatfwtubQ7tEhBVqqJ-bVVL9IGZXLYIfwekGhRumbxwZS-6_N6ba0SteJK8lfbJSQ",
-            "scope": "GOOGLE",
-            "types": [
-                "meal_delivery",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "3 Boulevard des Moneghetti, Beausoleil"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7299565,
-                    "lng": 7.416517100000001
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73125702989272,
-                        "lng": 7.417930779892721
-                    },
-                    "southwest": {
-                        "lat": 43.72855737010727,
-                        "lng": 7.415231120107277
-                    }
+            "photos": [
+                {
+                    "height": 3840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104020642164109955731/photos\">i Fratelli, Pizzeria Ristorante</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAr_7Bpc3fDSdTtR5Jg3CdU7Rp4nB7NVfYBxg2dEo9JrUSLMvhmne0rxcObK9Y1fZi_yavK7GiS-pMdaQh_fKKkDfYL5LCWw3sCDUVcsBOX8EJw4q5DubRAVvdRt_cz04xEhCqi2OaSV86uCB2J9_AvEUqGhSaQOYdZCPp2GGSKxLhHj3t7drg7Q",
+                    "width": 4932
                 }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "020a4ecc7884068010cba817521b3626ef40a1e4",
-            "name": "Giudi's",
-            "opening_hours": {
-                "open_now": true,
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 3456,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/109215140957500654990/photos\">Giudi&#39;s</a>"
-                ],
-                "photo_reference": "CmRaAAAAAKhus0zK_8jVRba0dIQeI9izfpinPGiw0J8mgajCs3-1JvqUatVSLVV94WCH5xZs0XFpIkvYofIYT8B_kc140jCdZQENAJSR8feinqSbQ0DxTy-zYGWvvYNy7IjKeQVEEhBVpqedIYnSWF4jZFtTHPQwGhTSOO7AETAyLALhqvkrX0UR-tfeVw",
-                "width": 5184
-            }],
-            "place_id": "ChIJqYCz0pLCzRIRf-NiZHKwp-A",
-            "rating": 3.5,
-            "reference": "CmRbAAAAcdRPok4dTxeczN3DRgppznN6beho0fOOQN6OrotWpsK6R4Cb02tcsGjC-EbR-cH7Xtc-E76Kf1uGgUCl_q_ahg2Xjq2YKEwn7qwOWZWc1W88A36h12tSPnQdTyWl5LcTEhA8tPoXZD9grS5Rd9dCSxLxGhQ6FH8Sykv4kLMGbXj37qJUVubD6g",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
             ],
-            "vicinity": "25 Avenue Albert II, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7371963,
-                    "lng": 7.416748500000001
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73851627989272,
-                        "lng": 7.41813172989272
-                    },
-                    "southwest": {
-                        "lat": 43.73581662010728,
-                        "lng": 7.415432070107276
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
-            "id": "dd6b2ab144866ce8f33e14fb692eee51145b5e61",
-            "name": "Pizza Boutique",
-            "opening_hours": {
-                "open_now": true,
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 705,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/111699796348076154334/photos\">A Google User</a>"
-                ],
-                "photo_reference": "CmRaAAAAxk0cMWSWNDDhnmdwQMMAWHpZyupgCKEzO0tWD2pKE9NEdAIrLI5M7G19FVOCEUllYVQqkO1xqhDDDXhs3PST6YHpURDK11OO4aeIp8iQZ9PDelvU0duvGfeyCu9hlUuCEhDdnZ6cMTDVJn6v9HRF3fMsGhQmusqGmRRC1uft-LbaYXaLNTBkgA",
-                "width": 1054
-            }],
-            "place_id": "ChIJ6TYpTovCzRIRJJBaXtuj_OY",
-            "rating": 3.4,
-            "reference": "CmRbAAAAJsPKK1g5b7SNZ-UUYbL6817JgJaer6rzg5e1Xfa1mAlSMmp4OYgLzYMdFGhjUP8a-TC96sVz3MJOuZASyrxZh9E_0bhb_Z70BXpetBSIzDFlGql33AK8Vg8KVIhgG7GJEhDkE4GSBcY0kV4nfLtl3zUlGhRmylJ1XQCQNC21fthRPxiyw-XzEQ",
+            "place_id": "ChIJ_1GnyZthLxMRzVE1g0dxmNQ",
+            "rating": 4.4,
+            "reference": "CmRbAAAAaBY2d_g09ouW0lSJiTYJbSwowIkDMdv4O8653AeGoafbnb-c1olhrStH3XnuLP2J_4nVl2VZG6ZaBRbhZ3uVXLeFO_gphHB02JJz8nQ1hTy4kyBx2G5FTg5nn6jEUHC-EhCtZtZYl-4R0dlbbcx9qVZXGhRVpvIuYFvYb2LpidmjEiYyQ6d-Xw",
             "scope": "GOOGLE",
             "types": [
-                "meal_delivery",
                 "meal_takeaway",
                 "restaurant",
                 "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "vicinity": "37 Boulevard du Jardin Exotique, Monaco"
+            "vicinity": "Via degli Umbri, 14, Roma"
         },
         {
             "geometry": {
                 "location": {
-                    "lat": 43.7286172,
-                    "lng": 7.420404800000001
+                    "lat": 41.8875586,
+                    "lng": 12.4717379
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 43.72994892989272,
-                        "lng": 7.42175652989272
+                        "lat": 41.88883567989271,
+                        "lng": 12.47307982989272
                     },
                     "southwest": {
-                        "lat": 43.72724927010728,
-                        "lng": 7.419056870107276
+                        "lat": 41.88613602010727,
+                        "lng": 12.47038017010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "1d561bfe9695cf8c475ffbff96110fa450abe140",
-            "name": "La Salière",
+            "id": "1191fd7c9d64edeed40e440f5a9eb0c059df9adf",
+            "name": "Ristorante Pizzeria La Piazzetta De Trastevere",
             "opening_hours": {
                 "open_now": false,
                 "weekday_text": []
             },
-            "photos": [{
-                "height": 3168,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100112877653106827563/photos\">jean jardillier</a>"
-                ],
-                "photo_reference": "CmRaAAAAjCf-eYs99TsAkGH3QgBrF1GWYudCgXNc2kSjtE_kH_jqGP2aILdps72VErtXvRjQQWfSyfncEV08pyu50LmnjkGw8eVaBvjuw2lUsq3QBIzNXhTId091hBs7hKoLv1UkEhC3p-shyErdV2-NEOOGq76UGhRQguWzIE1MYgVqaqG89BzDlb1tJQ",
-                "width": 4752
-            }],
-            "place_id": "ChIJKWBRAZPCzRIRofG14yJKJDI",
-            "rating": 4.2,
-            "reference": "CmRbAAAAgRgHq6nHPmWmQ1wlsuBt8DtVj6Jc98U6QHC9WQzQvQCHEC0wLFPsVvrFogcD5PhniVTca-6a1hmpCNOe61YihrkkyCfkjNy-LevD4oUyyz5GGrLF88byBN6zy0aLW1YvEhDLKkfjyVevHXqdVk0SDrurGhSdVmzScHcMrvx4SWlGarD3c0aaUw",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "28 Quai Jean-Charles Rey, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7363311,
-                    "lng": 7.420507600000001
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73768017989271,
-                        "lng": 7.421858329892721
-                    },
-                    "southwest": {
-                        "lat": 43.73498052010727,
-                        "lng": 7.419158670107277
-                    }
+            "photos": [
+                {
+                    "height": 900,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110440041528044574842/photos\">Sergey Sergey</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAYLKb3-u7c-sj4s40aPQULxYvdwuTGqoeAbA-zpcdJdRAGqOTh1UKR08Ok9e5pSuSeL1jeJZqhESckH7ld1cPGxGzz0p9oCpS86xiCbgL0tqUpklRMftSBrRIm_LekqvsEhAHP1W4gT6Xc7kuCGZy4tRXGhSiSX-Wfpe-86NAtC4nOa_SCuSVSQ",
+                    "width": 1200
                 }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "b351aa0f5e30a6e666239c0e35f990805d5fce5d",
-            "name": "Restaurant le Marathon",
-            "photos": [{
-                "height": 3120,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/100810862706021941492/photos\">Petr Zámečník</a>"
-                ],
-                "photo_reference": "CmRaAAAAAs46__Kz47VRvzAYAfoCdkiQcYgYqslFu7Ja8orHCS1Cr77jtxG0bE6G3UQzhv3JfzJ3nM8TvKFfKqrjZyy6TFpOZ0srGsLvey508taDrXiPv79YXK1v1aShoM5P-tU3EhBmkeNiTylKCz-ytBtrnMEeGhTSWj4gKIA6zD_2iouVjQIlFZpWOQ",
-                "width": 4160
-            }],
-            "place_id": "ChIJp2xfdYzCzRIRueBYSQ0mpRg",
-            "rating": 2.8,
-            "reference": "CmRbAAAAwsebIT75fyepbEpH5OPo2pX9rnV8exxvsbCCnD_lXSmO6A1SPMbRJi4OZBClor9YrluoWFxjtDwzSi_k5OI-5fOPwZcbsuJyHuBkDs6b2sdZnCfy2yL1sevCLBOFP5m7EhDJaKV2NeURwE-1EBJ8TsxvGhRrO_ZhyzG_U_6FDgCgNMwpAvrvig",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
             ],
-            "vicinity": "47 Rue Grimaldi, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.733623,
-                    "lng": 7.4213855
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73493407989272,
-                        "lng": 7.422749179892723
-                    },
-                    "southwest": {
-                        "lat": 43.73223442010728,
-                        "lng": 7.420049520107279
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "9fd07e45d8e2c9a09c04aa0a9f56e83de6d882ab",
-            "name": "Bella Vita",
-            "opening_hours": {
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 3456,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/112736234038771124171/photos\">Bella Vita</a>"
-                ],
-                "photo_reference": "CmRaAAAACrj9reW6T9wJeur6ut2VG5j3Zr4HcdMZPDa89eTakXjSBpy6ZufgW6lmUTltNRtSolpCOjDMmXMcU7YnxZzVNYUhUHqyoX22z0kQ5eSfCCd_V3a_usifLSTNYigBqZ26EhCzIu25iy2Hpent6Tpd9qLlGhSY13MXwC9ii8fxBmUNCsVKKPMrIA",
-                "width": 5184
-            }],
-            "place_id": "ChIJd1bF043CzRIRDjgbDU0_Kkg",
-            "rating": 4.2,
-            "reference": "CmRbAAAAMAeI8JhEnGO2LL-4Ri8DJmwpL_21DdIXLg8h8tNc8EUJCIYIo5dqxFXFL8VVU-SsvUhz_WHP5AO3C_Jfs761U6_ocouBJe1QlfLLJRLvEqgFMHRsUqgDpzt3W7i18F0VEhDqt6fk3p1-ulzO4jnjx9BMGhStHsgbTeI0Xek8mMv9cYq7fuPM4g",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "cafe",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "vicinity": "21 Rue Princesse Caroline, Monaco"
-        },
-        {
-            "geometry": {
-                "location": {
-                    "lat": 43.7337254,
-                    "lng": 7.420284
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 43.73507997989272,
-                        "lng": 7.421632379892722
-                    },
-                    "southwest": {
-                        "lat": 43.73238032010728,
-                        "lng": 7.418932720107278
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-            "id": "67f6f72ff8e08ba5cde5aa739aa5200b78fc79ac",
-            "name": "Planet Pasta",
-            "opening_hours": {
-                "open_now": false,
-                "weekday_text": []
-            },
-            "photos": [{
-                "height": 3456,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/116346962634337212754/photos\">Maxime Ordureau</a>"
-                ],
-                "photo_reference": "CmRaAAAAiSzMkIYWpbsVJnyldHlIgwwmSavnKt107vJzEuui3lk5IBoc7wfBWv70a9wArUBukbZ_enUxYI44on4HhpK0Afbkapo9qaUAsE3H_oEzgKe5tf0j6rMMeDU7fHo5K173EhDkbY78yUGeVVoYPGATfvyGGhQaacvPoB7ylbfkU1F6-ZZZLVem4w",
-                "width": 5184
-            }],
-            "place_id": "ChIJC4yIs43CzRIRwqDO2LNR5iI",
+            "place_id": "ChIJTyxtMjhgLxMRw1-iVeeZpWc",
             "rating": 4,
-            "reference": "CmRbAAAA8kQ9SxkUQIwSertgzqnmMHnu0uEsu-J3naOy_ZheMdnAO4t6HW_SPpiyujoHALwXk_mnE6qo6pkPL9bkJiFSwxmJJh2x8FKceKZztSMW-JGHt11GoRymAbq3pHC3Hsl1EhBY3EwVSWbgFTUC72-Mtv0yGhRUwTyCUVSAGq7ddJ0N1Esaciu5Gg",
+            "reference": "CmRbAAAAcXnYtZlSQKPEk3nrDxoVWa6x4k94fcoMNhU0qpe4EOpJek6nSLAnexNvby_d_JMsRK16Bpg0Z8_zDqm9c06KlbqpDsDHxAOk1CseyGS-iiVP88Pl7Bnj6CStLnEkyYQeEhAJlF3qsVExxxwyMWj51YlIGhSI-rVC2vKw09C6Z-qH-6RU_3oafQ",
             "scope": "GOOGLE",
             "types": [
                 "restaurant",
@@ -642,7 +796,100 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "vicinity": "6 Rue Imberty, Monaco"
+            "vicinity": "Via Cardinale Merry del Val, 16, Roma"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.80968490000001,
+                    "lng": 12.5930221
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.81103472989273,
+                        "lng": 12.59437192989272
+                    },
+                    "southwest": {
+                        "lat": 41.80833507010729,
+                        "lng": 12.59167227010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "165d2806b81f135a74425e1aa273809f0d9a1eef",
+            "name": "Ristorante Pizzeria Da Mimmo",
+            "opening_hours": {
+                "open_now": true,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116095086081999259640/photos\">Daniele Cibelli</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA0TAue4MhXXoCtGk8a60OKBeld5ypWQYA-Dp-1365gZImqOe1TLqTGZlfWgh1dbOm-D4mzMUnATrwAKleD9BX5O4VwjddzFJxWx4MMWE1tRvpsElwCbDOF-_QyLnFHm0aEhCO0kbDX0RQlR4MqjXZawFQGhQQRPI9E9shugwqQgOcVMzwDOhHgw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJlZ7dKfKIJRMRSOP0DvUk2GA",
+            "rating": 4.4,
+            "reference": "CmRbAAAAG9hxECyL4qp6xaKSLo7NJ2yTnkSnX2CtNkiByicvLMcjMQ7HrYFKB1N5cq6U9VGbVPq52DUsbBrm3X1m-ykr5TqFX1WEAIiQMAz-Lp-6F3j4cGnKAWF-nOBcsSMgRPYEEhBdJvhnjiDvIgD9Ow7CATXUGhSE-nWbQRdsKIb2Me8pmNxYUWwUJA",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via Carlo Pirzio Biroli , 119/B, Ciampino"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 41.8560659,
+                    "lng": 12.419769
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.85742107989272,
+                        "lng": 12.42129702989272
+                    },
+                    "southwest": {
+                        "lat": 41.85472142010728,
+                        "lng": 12.41859737010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "id": "549034b8de755d4629cc5790d10d7fd4cbc9bfbb",
+            "name": "Ristorante Pizzeria Da Ennio",
+            "opening_hours": {
+                "open_now": false,
+                "weekday_text": []
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102472132668435568746/photos\">massimiliano menconi</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAX1XHs9x_4W4fwrnH4krCYPShN1XEk8hHQaM-3w7bBxIcyNUvkgy7kK52JOMLIKW1JoS02wixgV58jjQBPaOq9KFIjqDxAn4NvQyY3_8GtrIbZjAO90SJxD_Y3Gq5hhLeEhApELz-raAWtvOwjvX_HKZ8GhQxI6_DllPM_15Pta3JfR38OqsTJg",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJaSp4p0D1JRMRry2Z_Ie7KbQ",
+            "rating": 4.1,
+            "reference": "CmRbAAAAnDrZOmHLsJ7Z3utubdqSPIfVi_edNUhsKVguNEnM0bqN-7HDoxRGr8AfKryJ_XvCv9J1LJv3ee7nNVjrEJ-WqQ_NQECBQUBH1DW3U75lTDM8RRiLljyxdmWJJoLn7uaOEhDWxC1QbJMjQlGAKyE1lwjaGhQPUOI3XWoVtuJOPf_oVks2q3a9sw",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "Via della Casetta Mattei, 153, Roma"
         }
-    ]
+    ],
+    "status": "OK"
 }

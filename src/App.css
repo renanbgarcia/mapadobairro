@@ -7,20 +7,6 @@ body {
   max-height: 100vh;
 }
 
-/* .map-container {
-  height: 50vh;
-  width: 100%
-} */
-
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-} */
-
-/* h1 {
-  height: 5vh;
-} */
-
 .App-header {
   display: flex;
   justify-content: center;
@@ -28,8 +14,16 @@ body {
   width: 100%;
   z-index: 15;
   height: 9vh;
-  /* padding: 5%; */
   color: white;
+}
+
+#img-container {
+  height: 200px;
+  overflow: scroll;
+}
+
+#imagenes {
+  width: 80%;
 }
 
 .menu-button {
@@ -50,14 +44,20 @@ h1 {
   display: flex;
   align-self: center;
   margin: 0%;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+} */
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.5em
+  }
 }

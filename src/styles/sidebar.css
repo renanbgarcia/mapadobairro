@@ -3,7 +3,7 @@
     padding-top: 10px;
     z-index: 20;
     height: 100%;
-    width: 220px;
+    width: 200px;
     background-color: rgba(204, 204, 204, 0.582);
     transition: all 500ms ease-in-out;
 }
@@ -14,17 +14,36 @@
     background-repeat: no-repeat; 
     background-size: 65%;
     background-position: center;
-    width: 80px;
+    width: 35px;
     height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#filterbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+#filterInput {
+    width: 80%;
     border: none;
     outline: none
 }
 
-#filterbox {
-    padding: 5px;
-    display: flex;
-    flex-wrap: nowrap;
-    height: 35px
+#filterInput:focus {
+    border-bottom: solid rgb(125, 78, 236) 2px;
+    box-shadow: inset 0 -7px 9px -7px rgba(125, 78, 236);
+}
+
+.credits {
+    font-size: 0.7em;
+    margin: 1em;
+    margin-top: 10px
 }
 
 .list {
@@ -32,7 +51,7 @@
     list-style: none;
     color: aliceblue;
     overflow: scroll;
-    height: 100%;
+    height: 70%;
     width: 100%;
 }
 
@@ -45,9 +64,15 @@
     background-color: rgba(66, 66, 66, 0.479);
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .list :hover {
     background-color: black
 }
 
+@media (min-width: 750px) {
+   #sidebar {
+       width: 300px
+   }
+}
