@@ -81,10 +81,8 @@ class SimpleMap extends Component {
   iteratePhotos(resp) {
     let str =''
     if (resp[0]){
-      for (let i = 0; i < 10; i++) {
-        if (resp[i]) {
-          str = str + `<img id='imagenes' src= ${resp[i]}>`
-        }
+      for (let photo of resp) {
+          str = str + `<img id='imagenes' src= ${photo}>`
       }
     } else {
       str = '<p>Não há imagens para mostrar</p>'
