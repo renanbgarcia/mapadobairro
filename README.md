@@ -29,9 +29,9 @@ para carregar as fotos tiradas nas proximidades dos locais marcados no mapa.
 Para a criação do projeto foi utilizado o pacote `create-react-app`.
 Para facilitar o carregamento e utilização da API do Google Maps foi utilizado o pacote `google-map-react`
 
-* [Flicker API] (https://www.flickr.com/services/api/)
-* [Goole Maps API] (https://developers.google.com/maps/?hl=pt-br)
-* [Create React App] (https://www.npmjs.com/package/create-react-app)
+* [Flicker API](https://www.flickr.com/services/api/)
+* [Goole Maps API](https://developers.google.com/maps/?hl=pt-br)
+* [Create React App](https://www.npmjs.com/package/create-react-app)
 * [Google Map React](https://www.npmjs.com/package/google-map-react)
 
 
